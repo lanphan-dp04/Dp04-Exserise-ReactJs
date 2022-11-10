@@ -1,4 +1,4 @@
-.ss-typical {
+.vc_row {
     color: #000000;
     font-family: Roboto;
     // font-size: 16px;
@@ -10,7 +10,7 @@
     .container {
         width: 100%;
 
-        .row-typical {
+        .vc_row-fluid {
             position: relative;
             box-sizing: border-box;
             width: 100%;
@@ -56,6 +56,7 @@
 
                 .vc_row {
                     display: flex;
+                    flex-wrap: wrap;
 
                     .vc_col-sm-3 {
                         padding-left: 0;
@@ -191,9 +192,9 @@
                                         transform: translate3d(100%,0,0);
 
                                         .team-caption-inner {
-                                            top: 25%;
                                             -webkit-transform: translate(0,-50%);
-                                            transform: translate(0,-10%);
+                                            top: 8%;
+                                            transform: translate(0, 10%);
 
                                             .team-designation a{
                                                 // font-size: 14px;
@@ -221,4 +222,74 @@
         }
     }
 }
+}
+
+@media screen and (max-width: 991px){
+    .vc_row .container .vc_row-fluid {
+        margin: 0 ;
+    }
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .houzez-module {
+        padding: 55px 40px 0 40px !important;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3 .vc_column-inner {
+        padding: 0 10px;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3{
+        width: 50%;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3 .vc_column-inner .wpb_wrapper .team-block .team-caption .team-caption-inner .team-name{
+        font-size: 15px;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3 .vc_column-inner .wpb_wrapper .team-block .team-caption .team-caption-inner .team-designation {
+        font-size: 13px;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3 .vc_column-inner .wpb_wrapper .team-block .team-caption-after .team-caption-inner .desc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .vc_row .container .vc_row-fluid {
+        margin: 0 ;
+    }
+    .vc_row .container .vc_row-fluid .wpb_column {
+        padding: 0 30px;
+    }
+    .vc_row .container .vc_row-fluid .wpb_column {
+        padding: 0;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .vc_row .container .vc_row-fluid {
+        margin: 0 ;
+    }
+    .vc_row .container .vc_row-fluid .wpb_column {
+        padding: 0 30px;
+    }
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row {
+        display: block;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .houzez-module {
+        padding: 55px 0px 0 0px !important;
+        margin: 0 25px;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .houzez-module h2{
+        font-size: 23px;
+    }
+
+    .vc_row .container .vc_row-fluid .wpb_column .wpb_wrapper .vc_row .vc_col-sm-3{
+        width: 100%;
+    }
 }
