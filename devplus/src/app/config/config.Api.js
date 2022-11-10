@@ -1,0 +1,3 @@
+import axios from 'axios';
+
+export const dataBanner = () => axios.get('https://6361ddfc7521369cd05fab83.mockapi.io/api/dataBanner'); 
