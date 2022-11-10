@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px) {
+  header {
+    background-color: #00AEEF;
+    position: unset;
+    .header-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo-wrapper {
+        scale: 0.5;
+      }
+    }
+    .nav-list {
+      display: none;
+    }
+    .nav-mobile {
+      display: block;
+      font-size: 25px;
+      color: #FFFFFF;
+      .nav-trigger {
+        left: 20px;
+        top: 35px;
+        position: absolute;
+      }
+    }
+  }
+}
+
+/* UI Tablet */
+@media screen and (max-width: 768px) {
+}
+
+/* UI Phone */
+@media screen and (max-width: 480px) {
+
+}
