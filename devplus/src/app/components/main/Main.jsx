@@ -9,7 +9,7 @@ const Main = () => {
     <main>
       <Banner/>
       <Typical/>
-      <MainDev />
+      <MainDev/>
       <Partners/>
     </main>
   )
