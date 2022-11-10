@@ -1,0 +1,187 @@
+.text-center {
+    text-align: center;
+}
+
+.ss-dev {
+    color: #000000;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: none;
+    background-image: url("./houzez-header-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        width: 100%;
+         
+        .vc_column-inner {
+            padding: 35px 0 15px 15px;
+            box-sizing: border-box;
+
+            .wpb_wrapper {
+                .houzez-module {
+                    padding: 55px 0;
+                }
+
+                .module-title{
+                    padding: 55px 0 0 0!important;
+
+                    h2 {
+                        font-size: 24px;
+                        line-height: 32px;
+                        margin: 0 0 10px 0;
+                        font-weight: 500;
+                        text-transform: inherit;
+                        text-align: inherit;
+                        color: #fff;
+                    }
+                    
+                    .sub-heading {
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: 300;
+                        text-transform: inherit;
+                        text-align: inherit;
+                        margin: 0 0 20px 0;
+                    }
+
+                    h3 {
+                        color: #fff;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+                }
+                .module-title+.houzez-module {
+                    padding: 40px 0 55px;
+
+                    .row-no-margin {
+                        display: flex;
+                        flex-wrap: wrap;
+                        
+                        .module-item {
+                            display: inline-flex;
+                            transition: box-shadow 0.5s ease;
+                            width: 33.3333%;
+                            padding-right: 0;
+                            padding-left: 0;
+                            position: relative;
+                            min-height: 1px;
+                            &:hover {
+                                top: -10px;
+                                box-shadow: 0 5px 50px rgb(176, 173, 173);;
+                                z-index: 111;
+                            }
+
+                            .service-block {
+                                position: relative;
+                                width: 100%;
+                                z-index: 2;
+                                padding: 0 30px 30px;
+                                text-align: -webkit-center;
+                                background-color: #fff;
+                                transition: .2s;
+                                box-shadow: 2px 4px 5px #888888;
+
+                                .block-icon {
+                                    font-size: 60px;
+                                    min-width: 80px;
+                                    padding: 80px 0 70px;
+
+                                    img {
+                                        width: 40%;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .block-content {
+
+                                    h3 {
+                                        font-size: 20px;
+                                        line-height: 28px;
+                                        font-weight: 500;
+                                        text-transform: inherit;
+                                        text-align: inherit;
+                                        margin: 0 0 8px 0;
+                                    }
+
+                                    p{
+                                        font-size: 17px;
+                                        line-height: 22px;
+                                        font-weight: 300;
+                                        margin: 0 0 10px 0;
+                                        color: #636363;
+                                    }
+
+                                    .find {
+                                        font-size: 19px;
+                                        line-height: 16px;
+                                        font-weight: 400;
+                                        margin: 0;
+                                        color: #00AEEF;
+                                        -webkit-transition: .3s;
+                                        transition: .3s;
+                                        text-decoration: none;
+
+                                        &:hover {
+                                            color: #99e0fa;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px){
+    .ss-dev .container .vc_column-inner {
+        padding-left: 0;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .ss-dev .container .vc_column-inner {
+        padding-left: 0;
+        margin: 0 20px;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .ss-dev .container .vc_column-inner {
+        padding-left: 0;
+        margin: 0 25px;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title h2{
+        font-size: 22px;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title h3 {
+        color: #ececec;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item {
+        width: 100%;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item .service-block .block-content{
+        margin-bottom: 10px;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item .service-block .block-content p{
+        margin-bottom: 20px;
+    }
+
+    .ss-dev .container .vc_column-inner .wpb_wrapper .module-title + .houzez-module .row-no-margin .module-item .service-block .block-icon {
+        padding: 50px 0 40px;
+    }
+}
