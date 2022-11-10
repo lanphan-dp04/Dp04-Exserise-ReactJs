@@ -19,10 +19,12 @@ const Banner = () => {
   }, []);
   const setting = {
     dots: true,
+    fade: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    cssEase: 'linear',
     // prevArrow: true,
     // nextArrow: true,
     // responsive: [

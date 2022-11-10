@@ -5,7 +5,6 @@ import "./App.css";
 import Typical from "./app/components/main/Typical/Typical";
 import MainDev from "./app/components/main/mainDev/MainDev";
 import Footer from "./app/components/footer/Footer";
-import SlideClient from "./app/components/main/slideClient/SlideClient";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./app/stylesheet/style.scss"
@@ -22,11 +21,10 @@ function App() {
       <Footer />
       <Header/>
       <Main/>
+      <Footer />
     </>
   );
 
-function App() {
-  return <></>;
 }
 
 export default App;

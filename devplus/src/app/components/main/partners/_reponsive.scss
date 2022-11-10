@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 605px !important;
+    }
+  }
+}
+
+/* UI Tablet */
+@media screen and (max-width: 768px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 425px !important;
+    }
+  }
+}
+
+/* UI Phone */
+@media screen and (max-width: 480px) {
+  .section-partners {
+    .partners-title {
+      font-weight: 500;
+      width: 65%;
+      padding-bottom: 20px ;
+    }
+    .slick-slider {
+      .slick-arrow {
+        display: none !important;
+      }
+    }
+  }
+}
