@@ -67,15 +67,23 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: black;
   }
   .slick-next {
     margin-right: 50px;
-    &::before {
-      margin-right: -3px;
-    }
   }
   .slick-prev {
     margin-left: 50px;
+  }
+  .slick-prev:before {
+    font-family:  Fontawesome;
+    content: "\f053";
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    font-family:  Fontawesome;
+    content: '\f054';
+    font-size: 30px;
   }
 }
