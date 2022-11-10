@@ -1,6 +1,5 @@
 import "./Typical.scss";
 import { FaInstagramSquare, FaFacebookSquare } from 'react-icons/fa';
-import img from "./Capture.png"
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -27,9 +26,9 @@ function Typical() {
   }, []);
 
   return (
-    <div className="ss-typical">
+    <section className="vc_row">
       <div className="container">
-        <div className="row-typical">
+        <div className="vc_row-fluid">
           <div className="wpb_column">
                   <div className="wpb_wrapper">
               <div className="houzez-module">
@@ -108,7 +107,7 @@ function Typical() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default Typical;

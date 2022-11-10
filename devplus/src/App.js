@@ -24,6 +24,9 @@ function App() {
       <Main/>
     </>
   );
+
+function App() {
+  return <></>;
 }
 
 export default App;
