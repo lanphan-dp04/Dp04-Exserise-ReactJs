@@ -15,13 +15,19 @@ const Nav = () => {
           </a>
           <ul className="sub-menu">
             <li className="menu-item">
-              <a href="#/" className="menu-link">ST SOFTWARE</a>
+              <a href="/st-software" className="menu-link">
+                ST SOFTWARE
+              </a>
             </li>
             <li className="menu-item">
-              <a href="#/" className="menu-link">ST DIGITAL</a>
+              <a href="/st-digital" className="menu-link">
+                ST DIGITAL
+              </a>
             </li>
             <li className="menu-item">
-              <a href="#/" className="menu-link">ST DIGITAL</a>
+              <a href="/st-incubation" className="menu-link">
+                ST INCUBATION
+              </a>
             </li>
           </ul>
         </li>
