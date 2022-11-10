@@ -1,9 +1,10 @@
 import React from 'react'
+import MainWeare from './component/MainWeare'
 
 const WearePage = () => {
   return (
     <>
-      <WearePage/>
+      <MainWeare></MainWeare>
     </>
   )
 }

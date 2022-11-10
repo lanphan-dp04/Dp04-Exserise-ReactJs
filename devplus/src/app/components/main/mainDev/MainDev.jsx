@@ -1,5 +1,4 @@
 import "./MainDev.scss"
-import icon_1 from "./web-1.png"
 import axios from "axios";
 import { useState, useEffect } from "react";
 
