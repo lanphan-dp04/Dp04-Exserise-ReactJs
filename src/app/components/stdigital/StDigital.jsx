@@ -40,9 +40,9 @@ export default function StDigital() {
           <h3>Meet Our Team</h3>
 
           {/* map o day */}
-          <div className="meetourteam-container">
+          <div className="meetourteam-container row">
             {info.info.map((staff, index) => (
-              <div className="boxmember">
+              <div className="boxmember col-sm-6 col-md-4 col-lg-3">
                 <div className="member-image">
                   <img src={staff.image} alt="stmember" />
                 </div>
