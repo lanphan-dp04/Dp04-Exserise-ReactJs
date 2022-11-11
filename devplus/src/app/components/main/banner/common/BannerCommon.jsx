@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { dataCommonBanner } from '../../../../config/config.Api';
 
 const BannerCommon = (props) => {
+  
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
@@ -13,7 +14,8 @@ const BannerCommon = (props) => {
 
   useState(() => {
     fetchData();
-  }, []);
+  }, [props.id]);
+
   return (
     <section className="section-banner banner-common">
       <div className="banner-wrapper">

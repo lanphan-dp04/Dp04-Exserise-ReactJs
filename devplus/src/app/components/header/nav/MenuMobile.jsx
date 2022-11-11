@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const MenuMobile = () =>  {
-  const [isShow, setIsShow] = useState(false)
+const MenuMobile = () => {
+  const [isShow, setIsShow] = useState(false);
 
   const handleShowNav = () => {
     isShow === true ? setIsShow(false) : setIsShow(true);
@@ -11,57 +12,66 @@ const MenuMobile = () =>  {
     <nav>
       <ul className="nav-mobile-list">
         <li className="nav-mobile-item">
-          <a href="#/" className="nav-mobile-link">
+          <Link className="nav-mobile-link" to={`/`}>
             HOME
-          </a>
+          </Link>
         </li>
-        <li className={`nav-mobile-item expand-me ${isShow=== true ? 'expand-active' : ''}`} onClick={handleShowNav}>
+        <li
+          className={`nav-mobile-item expand-me ${
+            isShow === true ? "expand-active" : ""
+          }`}
+          onClick={handleShowNav}
+        >
           <div className={`mobile-link-wrapper`}>
-          <a href="#/" className="nav-mobile-link">
-            WHAT WE DO
-          </a>
+            <Link className="nav-mobile-link nav-sub-menu" to={`/st-software`}>
+              WHAT WE DO
+            </Link>
           </div>
-          <ul className={`sub-mobile-list ${isShow=== true ? 'mobile-list-active' : ''}`}>
+          <ul
+            className={`sub-mobile-list ${
+              isShow === true ? "mobile-list-active" : ""
+            }`}
+          >
             <li className="sub-mobile-item">
-             <a href="#/" className="sub-mobile-link">
-              ST SOFTWARE
-             </a>
+              <Link className="sub-mobile-link" to={`/st-software`}>
+                ST SOFTWARE
+              </Link>
             </li>
             <li className="sub-mobile-item">
-             <a href="#/" className="sub-mobile-link">
-              ST DIGITAL
-             </a>
+              <Link className="sub-mobile-link" to={`/st-digital`}>
+                ST DIGITAL
+              </Link>
             </li>
             <li className="sub-mobile-item">
-             <a href="#/" className="sub-mobile-link">
-              ST DIGITAL
-             </a>
+              <Link className="sub-mobile-link" to={`/st-incubation`}>
+                ST INCUBATION
+              </Link>
             </li>
           </ul>
         </li>
         <li className="nav-mobile-item">
-          <a href="#/" className="nav-mobile-link">
+          <Link className="nav-mobile-link" to={`/who-we-are`}>
             WHO WE ARE
-          </a>
+          </Link>
         </li>
         <li className="nav-mobile-item">
-          <a href="#/" className="nav-mobile-link">
+          <Link className="nav-mobile-link" to={`/portfolio`}>
             PORTFOLIO
-          </a>
+          </Link>
         </li>
         <li className="nav-mobile-item">
-          <a href="#/" className="nav-mobile-link">
+          <Link className="nav-mobile-link" to={`/join-us`}>
             JOIN US
-          </a>
+          </Link>
         </li>
         <li className="nav-mobile-item">
-          <a href="#/" className="nav-mobile-link">
+          <Link className="nav-mobile-link" to={`/lets-talk`}>
             LET’S TALK
-          </a>
+          </Link>
         </li>
       </ul>
-  </nav>
-  )
-}
+    </nav>
+  );
+};
 
-export default MenuMobile
+export default MenuMobile;

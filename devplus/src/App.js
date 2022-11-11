@@ -11,9 +11,9 @@ import Footer from "./app/components/footer/Footer";
 function App() {
   return (
       <div className="app">
-        <Header/>
+        {/* <Header/> */}
         <RouterApp/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
   );
 }
