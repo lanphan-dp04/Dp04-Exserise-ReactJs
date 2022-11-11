@@ -209,11 +209,14 @@
     }
 }
 @media screen and (max-width: 768px){
+    .ss-united .container .vc-row .vc_column-inner h1 {
+        margin-bottom: unset
+    }
     .container .agents-module .agents-blocks-main .col-md-4 {
         width: 50% !important;
     }
 
     .container .vc-row .vc_column-inner .wpb_wrapper .vc_inner .vc_column_container .wpb_content_element {
-        width: 100%;
+        width: 100% !important;
     }
 }
