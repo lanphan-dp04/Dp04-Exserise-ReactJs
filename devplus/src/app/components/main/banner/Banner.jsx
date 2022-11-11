@@ -18,6 +18,21 @@ const Banner = () => {
     fetchData();
   }, []);
   const setting = {
+    customPaging: function(i) {
+      return (
+        <a>
+          {data.map((element,index) => {
+              if(+element.id === +(i+1)) {
+                return (
+                  <div key={index}className="sub-banner">
+                    <img src={element.srcBanner} alt="sub-menu" />
+                  </div>
+                )
+              }
+            })} 
+        </a>
+      );
+    },
     dots: true,
     fade: true,
     infinite: true,
@@ -51,7 +66,7 @@ const Banner = () => {
   
   return (
     <section className="section-banner">
-    <Slider {...setting}>
+      <Slider {...setting}>
     {data.map((element) => {
       return (
         <div key={element.id}  className="banner-wrapper">
@@ -59,15 +74,12 @@ const Banner = () => {
             <img src={element.srcBanner} alt="banner" />
           </div>
             <div className="wrapper-content">
-          <Reveal effect="fadeInUp">
               <p className="banner-content">{element.content}</p> 
-          </Reveal>
             </div>
         </div>
       )
     })} 
-     </Slider>
-     <div className="bg-wrapper"></div>
+    </Slider>
     </section>
   )
 }

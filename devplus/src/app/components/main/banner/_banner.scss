@@ -1,4 +1,8 @@
 .section-banner {
+  .banner-wrapper {
+    position: relative;
+    z-index: 100;
+  }
   width: 100%;
   .bg-wrapper {
     position: absolute;
@@ -17,6 +21,7 @@
     }
   }
   .wrapper-content {
+    position: relative;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -26,7 +31,7 @@
       cursor: pointer;
       border-radius: 5px;
       position: absolute;
-      bottom: 70px;
+      bottom: 130px;
       background-color: rgb(247, 148, 29);
       text-align: center;
       margin-bottom: unset;
@@ -35,6 +40,11 @@
       font-size: 25px;
       font-weight: 700;
     }
+    
+  }
+  .wrapper-content:before {
+    position: relative;
+    z-index: 100;
   }
   .slick-dots {
     z-index: 100;
@@ -53,6 +63,9 @@
   }
   .slick-dots li:hover {
     background-color: #ffffff;
+    .sub-banner {
+      display: block;
+    }
   }
   .slick-active {
     z-index: 100;
@@ -81,5 +94,16 @@
     font-family:  Fontawesome;
     content: '\f054';
     font-size: 30px;
+  }
+  .sub-banner {
+    right: -55px;
+    bottom: 20px;
+    position: absolute;
+    display: none;
+    img {
+      max-width: unset !important;
+      width: 135px;
+      height: 60px;
+    }
   }
 }
