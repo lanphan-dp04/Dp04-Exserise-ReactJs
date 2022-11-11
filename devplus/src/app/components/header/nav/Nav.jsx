@@ -1,55 +1,60 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav>
       <ul className="nav-list">
         <li className="nav-item">
-          <a href="#/" className="nav-link">
+          <Link className="nav-link" to={`/`}>
             HOME
-          </a>
+          </Link>
         </li>
         <li className="nav-item we-do">
-          <a href="#/" className="nav-link">
+          <Link className="nav-link" to={`/st-software`}>
             WHAT WE DO
-          </a>
+          </Link>
           <ul className="sub-menu">
             <li className="menu-item">
-              <a href="#/" className="menu-link">
+              <Link className="menu-link" to={`/st-software`}>
                 ST SOFTWARE
-              </a>
+              </Link>
             </li>
             <li className="menu-item">
-              <a href="#/" className="menu-link">
+              <Link className="menu-link" to={`/st-digital`}>
                 ST DIGITAL
-              </a>
+              </Link>
             </li>
             <li className="menu-item">
-              <a href="#/" className="menu-link">
-                ST DIGITAL
-              </a>
+              <Link className="menu-link" to={`/st-incubation`}>
+                ST INCUBATION
+              </Link>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <a href="#/" className="nav-link">
+          <Link className="nav-link" to={`/who-we-are`}>
             WHO WE ARE
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#/" className="nav-link">
+          <Link className="nav-link" to={`/portfolio`}>
             PORTFOLIO
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
+<<<<<<< HEAD
           <a href="/join-us" className="nav-link">
+=======
+          <Link className="nav-link" to={`/join-us`}>
+>>>>>>> b58fea70ddbfc9ba5b06567cfc9182f261543e6a
             JOIN US
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#/" className="nav-link">
+          <Link className="nav-link" to={`/lets-talk`}>
             LET’S TALK
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
