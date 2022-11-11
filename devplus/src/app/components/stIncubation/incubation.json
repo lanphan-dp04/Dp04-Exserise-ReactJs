@@ -1,0 +1,19 @@
+{
+    "incubation": [
+        {
+            "image": "https://stunited.vn/wp-content/uploads/2019/09/icuba-150x150.png",
+            "title": "Incubator Program",
+            "content": "Targeting early-stage startups in multiple sectors, our goal is to support founders with practical education and mentorship from idea validation, MVP development, and business validation stage."
+        },
+        {
+            "image": "https://stunited.vn/wp-content/uploads/2019/09/icons-400sq-record-keeping-office-space-150x150.png",
+            "title": "Coworking Space",
+            "content": "Based on coworking platform with IoT Space, Nomad Space... provides not only space for working but also an opportunity for members to thrive by exploring collaboration, learning, and access to our strategic network."
+        },
+        {
+            "image": "https://stunited.vn/wp-content/uploads/2019/09/Money-512-150x150.png",
+            "title": "Strategic Funding ",
+            "content": "ST United is considering an early stage VC fund that invests in technology startups in Vietnam, particularly Danang, at their early and growth stages. We provide funding, and assistance by establishing strategic partnerships to help startups scale their businesses"
+        }
+    ]
+}
