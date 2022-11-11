@@ -18,6 +18,16 @@
     button.slick-arrow.slick-prev {
       left: 82% !important;
     }
+    .partner-link {
+      img {
+        padding: 20px;
+      }
+    }
+    .slick-slider {
+      .slick-arrow {
+        display: none !important;
+      }
+    }
   }
 }
 
@@ -29,10 +39,13 @@
       width: 65%;
       padding-bottom: 20px ;
     }
-    .slick-slider {
-      .slick-arrow {
-        display: none !important;
+    .partner-link {
+      img {
+        padding: 10px;
       }
     }
+    // .slick-slide img {
+    //   padding: 10px;
+    // }
   }
 }
