@@ -1,10 +1,10 @@
 import React from 'react'
 import MainSoftware from './MainSoftware'
 
-const SoftwarePage = () => {
+const SoftwarePage = (props) => {
   return (
     <> 
-      <MainSoftware/>
+      <MainSoftware value={props.value}/>
     </>
 
   )

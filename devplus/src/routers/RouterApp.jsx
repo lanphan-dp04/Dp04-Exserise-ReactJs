@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "../app/components/footer/Footer";
 import Header from "../app/components/header/Header";
+import { dataCommonBanner } from "../app/config/config.Api";
 import Homepage from "../views/Homepage/HomePage";
 import JoinusPage from "../views/JoinUs/JoinusPage";
 import MainJoinus from "../views/JoinUs/MainJoinus";
@@ -16,7 +17,7 @@ function RouterApp() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Homepage/>} />
-        <Route path="/st-software" element={<SoftwarePage/>} />
+        <Route path="/st-software" element={<SoftwarePage />} />
         <Route path="/st-digital" element={<DigitalPage/>} />
         <Route path="/st-incubation" element={<IncubationPage/>} />
         <Route path="/who-we-are" element={<WearePage/>} />

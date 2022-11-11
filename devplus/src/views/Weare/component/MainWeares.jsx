@@ -2,7 +2,7 @@ import "../component/MainWeare.scss"
 import MeetTeam from "./meetTeam/MeetTeam";
 import United from "./stUnited/United";
 
-function MainWeare() {
+function MainWeares() {
   return (
     <section className='container'>
       {/* row one */}
@@ -60,4 +60,4 @@ function MainWeare() {
   )
 }
 
-export default MainWeare;
+export default MainWeares;
