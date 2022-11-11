@@ -1,12 +1,14 @@
-import React from 'react'
-import BannerCommon from '../../app/components/main/banner/common/BannerCommon.jsx'
+import React from "react";
+import TalkPage from "../../app/components/letsTalkPage/TalkPage.jsx";
+import BannerCommon from "../../app/components/main/banner/common/BannerCommon.jsx";
 
 const MainLetstalk = () => {
   return (
     <main>
-      <BannerCommon id={7}/>
+      <BannerCommon id={7} />
+      <TalkPage />
     </main>
-  )
-}
+  );
+};
 
-export default MainLetstalk
+export default MainLetstalk;
