@@ -40,5 +40,8 @@
         font-weight: 700;
       }
     }
+    .wrapper-content::before {
+      height: 800px;
+    }
   }
 }

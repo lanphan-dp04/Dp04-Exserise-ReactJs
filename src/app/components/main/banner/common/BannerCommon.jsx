@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { dataCommonBanner } from '../../../../config/config.Api';
+import banner from '../../../../assets/main/banner/banner-5.jpg'
 
 const BannerCommon = (props) => {
   
@@ -14,13 +15,13 @@ const BannerCommon = (props) => {
 
   useState(() => {
     fetchData();
-  }, [props.id]);
+  }, []);
 
   return (
     <section className="section-banner banner-common">
       <div className="banner-wrappers">
           <div className="image-wrapper">
-            <img src={data.srcImage} alt="banner" />
+            <img src={data.srcImage} alt={''} />
           </div>
             <div className="common-content-wrapper">
               <h1>{data.title}</h1>
