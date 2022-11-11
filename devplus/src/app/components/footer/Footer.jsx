@@ -104,7 +104,7 @@ export default function Footer() {
                 allowFullScreen
                 scrolling="no"
                 allow="encrypted-media"
-                src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=217780371604666&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df969e06050c018%26domain%3Dstunited.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fstunited.vn%252Ff12695ff9109e2c%26relation%3Dparent.parent&amp;container_width=370&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fstunited.vn&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=false&amp;width="
+                //src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=217780371604666&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df969e06050c018%26domain%3Dstunited.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fstunited.vn%252Ff12695ff9109e2c%26relation%3Dparent.parent&amp;container_width=370&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fstunited.vn&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=false&amp;width="
                 style={{
                   border: "none",
                   visibility: "visible",
