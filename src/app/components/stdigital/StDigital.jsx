@@ -4,7 +4,7 @@ import divison from "./digitalDivison.json";
 
 export default function StDigital() {
   return (
-    <div className="stdigital">
+    <div className="js-close stdigital">
       <div className="container">
         <div className="introduc">
           <h1>ST Digital</h1>

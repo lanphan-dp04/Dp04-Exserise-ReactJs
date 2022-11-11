@@ -24,7 +24,7 @@ export default function JoinUs() {
   }, []);
 
   return (
-    <div className="join-us">
+    <div className="js-close join-us">
       <div className="container">
         <div className="join-us-title">
           <h2>

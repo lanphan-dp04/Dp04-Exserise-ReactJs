@@ -66,7 +66,7 @@ const Banner = () => {
   };
   
   return (
-    <section className="section-banner">
+    <section className="js-close section-banner">
       <Slider {...setting}>
     {data.map((element) => {
       return (

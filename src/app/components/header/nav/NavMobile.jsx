@@ -10,8 +10,13 @@ const NavMobile = () => {
     isShow === true ? setIsShow(false) : setIsShow(true);
   };
   useEffect(() => {
-    const $ = document.querySelector('.section-banner');
-    $.addEventListener('click', () => {
+    // const $ = document.querySelector('.section-banner');
+    // $.addEventListener('click', () => {
+    //   setIsShow(false);
+    // })
+    const $$ = document.querySelector('.js-close');
+    $$.addEventListener('click', () => {
+      console.log('123');
       setIsShow(false);
     })
   })

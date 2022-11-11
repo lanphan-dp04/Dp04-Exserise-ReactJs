@@ -4,7 +4,7 @@ import United from "./stUnited/United";
 
 function MainWeares() {
   return (
-    <section className="ss-united">
+    <section className="js-close ss-united">
       <div className='container'>
       {/* row one */}
       <div className='vc-row'>

@@ -18,7 +18,7 @@ const BannerCommon = (props) => {
   }, []);
 
   return (
-    <section className="section-banner banner-common">
+    <section className="js-close section-banner banner-common">
       <div className="banner-wrappers">
           <div className="image-wrapper">
             <img src={data.srcImage} alt={''} />

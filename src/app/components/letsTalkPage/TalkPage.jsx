@@ -18,7 +18,7 @@ export default function TalkPage() {
   };
 
   return (
-    <div className="talkpage">
+    <div className="js-close talkpage">
       <div className="container">
         <div className="talkpage-boxtitle">
           <p>

@@ -3,7 +3,7 @@ import incubation from "./incubation.json";
 
 export default function StIncubation() {
   return (
-    <div className="incubation">
+    <div className="js-close incubation">
       <div className="container">
         <div className="introduc">
           <h1>ST Incubation</h1>
