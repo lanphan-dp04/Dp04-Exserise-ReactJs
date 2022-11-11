@@ -52,7 +52,6 @@ const Partners = () => {
         </h2>
         <Slider {...setting} >
         {data.map((element) => {
-          console.log(element.linkweb);
           return (
             <div className="partner-wrapper">
               <div className="partner-wrapper-link">
