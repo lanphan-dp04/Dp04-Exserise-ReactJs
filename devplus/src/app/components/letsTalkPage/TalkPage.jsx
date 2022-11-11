@@ -26,7 +26,7 @@ export default function TalkPage() {
               <span>Home</span>
             </a>
             <span>
-              <i className="fa-solid fa-angle-right"></i>
+              <i className="fa-solid fa-solid-icon fa-angle-right"></i>
             </span>
             <span>Let's talk </span>
           </p>

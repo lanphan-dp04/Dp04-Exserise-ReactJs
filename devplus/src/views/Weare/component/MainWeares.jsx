@@ -4,7 +4,8 @@ import United from "./stUnited/United";
 
 function MainWeares() {
   return (
-    <section className='container'>
+    <section className="ss-united">
+      <div className='container'>
       {/* row one */}
       <div className='vc-row'>
         <div className='vc_column-inner'>
@@ -56,7 +57,9 @@ function MainWeares() {
           </div>
         </div>
       </div>
+    </div>
     </section>
+    
   )
 }
 
