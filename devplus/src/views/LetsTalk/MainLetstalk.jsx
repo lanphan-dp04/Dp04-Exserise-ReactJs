@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerCommon from '../../app/components/main/banner/common/BannerCommon'
+import BannerCommon from '../../app/components/main/banner/common/BannerCommon.jsx'
 
 const MainLetstalk = () => {
   return (

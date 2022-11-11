@@ -33,7 +33,7 @@ export default function United() {
               <div className='vc_column_container'>
                 {itemUnited.map((item, index)=>{
                     return (
-                        <div className='wpb_content_element'>
+                        <div key={index} className='wpb_content_element'>
                             <span>{item?.title}</span>
                             <p>{item?.infor}</p>
                         </div>
@@ -42,7 +42,7 @@ export default function United() {
               </div>
             </div>
             <div className='wpb_text_column'>
-              <div class="wpb_wrapper-chil">
+              <div className="wpb_wrapper-chil">
                 <h4>…and many other cool stories..</h4>
               </div>
             </div>
