@@ -1,16 +1,22 @@
 @media screen and (max-width: 992px) {
   .section-partners {
     button.slick-arrow.slick-prev {
-      left: 605px !important;
+      left: 87% !important;
     }
   }
 }
-
+@media screen and (max-width: 1200px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 90%;
+    }
+  }
+}
 /* UI Tablet */
 @media screen and (max-width: 768px) {
   .section-partners {
     button.slick-arrow.slick-prev {
-      left: 425px !important;
+      left: 82% !important;
     }
   }
 }
