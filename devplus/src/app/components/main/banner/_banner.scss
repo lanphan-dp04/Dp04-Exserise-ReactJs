@@ -14,6 +14,7 @@
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.4);
   }
+  width: 100%;
   .image-wrapper {
     img {
       object-fit: cover;
@@ -29,6 +30,7 @@
     margin: auto;
     width: 50%;
     .banner-content {
+      z-index: 100;
       cursor: pointer;
       border-radius: 5px;
       position: absolute;
@@ -47,6 +49,16 @@
     position: relative;
     z-index: 100;
   }
+  .wrapper-content::before {
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 700px;
+    width: 100%;
+    content: "";
+    z-index: 5;
+  }
+
   .slick-dots {
     z-index: 100;
     bottom: 30px;
@@ -58,7 +70,7 @@
       border: 2px solid #ffffff;
       transition: opacity 0.3s ease;
       button::before {
-        content: '';
+        content: "";
       }
     }
   }
@@ -86,14 +98,14 @@
     margin-left: 50px;
   }
   .slick-prev:before {
-    font-family:  Fontawesome;
+    font-family: Fontawesome;
     content: "\f053";
     font-size: 30px;
   }
-  
+
   .slick-next:before {
-    font-family:  Fontawesome;
-    content: '\f054';
+    font-family: Fontawesome;
+    content: "\f054";
     font-size: 30px;
   }
   .sub-banner {
@@ -102,9 +114,23 @@
     position: absolute;
     display: none;
     img {
+      position: relative;
       max-width: unset !important;
       width: 135px;
       height: 60px;
     }
+  }
+  .sub-banner::before {
+    padding: 20px;
+    right: 0;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    width: 135px;
+    content: "Silder";
+    height: 60px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
