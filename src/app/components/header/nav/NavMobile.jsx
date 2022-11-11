@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import MenuMobile from './MenuMobile';
-import useComponentVisible from './useComponentVisible';
+
 
 const NavMobile = () => {
-  // const { ref, isComponentVisible } = useComponentVisible(true);
   
   const [isShow, setIsShow] = useState(false)
 

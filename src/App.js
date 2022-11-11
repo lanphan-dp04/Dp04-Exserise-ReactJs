@@ -9,14 +9,25 @@ import Header from "./app/components/header/Header";
 import Footer from "./app/components/footer/Footer";
 import BtnScrollToTop from "./app/components/btnScroll/Scroll";
 
+import { useState, useEffect } from "react";
+import Loading from "./app/components/loadingPage/Loading";
+
 function App() {
-  return (
-      <div className="app">
-        {/* <Header/> */}
-        <RouterApp/>
-        <BtnScrollToTop/>
-        {/* <Footer/> */}
-      </div>
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
+  return loading ? (
+    <Loading />
+  ) : (
+    <div className="app">
+      <RouterApp />
+      <BtnScrollToTop />
+    </div>
   );
 }
 

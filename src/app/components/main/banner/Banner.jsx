@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Slider from "react-slick";
 import { dataBanner } from '../../../config/config.Api';
 import Reveal from 'react-reveal/Reveal';
+import Loading from '../../loadingPage/Loading';
 
 
 const Banner = () => {
@@ -20,7 +21,7 @@ const Banner = () => {
   const setting = {
     customPaging: function(i) {
       return (
-        <a>
+        <a href='#/'>
           {data.map((element,index) => {
               if(+element.id === +(i+1)) {
                 return (
