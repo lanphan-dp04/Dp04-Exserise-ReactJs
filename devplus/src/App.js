@@ -7,14 +7,16 @@ import "slick-carousel/slick/slick-theme.css";
 import RouterApp from "./routers/RouterApp";
 import Header from "./app/components/header/Header";
 import Footer from "./app/components/footer/Footer";
+import PortfolioPage from "./views/PortfolioPage/PortfolioPage";
 
 function App() {
   return (
-      <div className="app">
-        <Header/>
-        <RouterApp/>
-        <Footer/>
-      </div>
+    <div className="app">
+      <Header />
+      {/* <RouterApp/> */}
+      <PortfolioPage />
+      <Footer />
+    </div>
   );
 }
 
