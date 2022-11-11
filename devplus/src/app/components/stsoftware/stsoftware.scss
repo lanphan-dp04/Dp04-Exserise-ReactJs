@@ -1,0 +1,48 @@
+.stsoftware {
+    background-color: #c6c1c122;
+    margin-top: -100px;
+}
+.section-stdevelop{
+    margin: 100px 0;
+    // background-color: #e1dddd;
+}
+
+.stdevelop{
+    padding: 55px 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto       ;
+    gap: 100px 25px
+}
+
+.stdevelop-box {
+    display: flex;
+    gap: 20px;
+}
+
+
+.boxcontent p {
+    color: #636363;
+}
+
+.boxcontent h3 {
+    color: #636363;
+}
+.boxcontent a {
+    color:  #00AEEF;;
+}
+.fa-solid {
+    font-size: xx-large;
+    color: #7a7a7a;
+    width: 32px;
+}
+
+@media screen and ( max-width: 768px){
+    .stdevelop {
+        display: block;
+        padding: 100px 20px 100px 40px;
+    }
+    .stdevelop-box{
+        margin-bottom: 30px;
+    }
+}

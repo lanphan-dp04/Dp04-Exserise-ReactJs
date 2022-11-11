@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 87% !important;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 90%;
+    }
+  }
+}
+/* UI Tablet */
+@media screen and (max-width: 768px) {
+  .section-partners {
+    button.slick-arrow.slick-prev {
+      left: 82% !important;
+    }
+    .partner-link {
+      img {
+        padding: 20px;
+      }
+    }
+    .slick-slider {
+      .slick-arrow {
+        display: none !important;
+      }
+    }
+  }
+}
+
+/* UI Phone */
+@media screen and (max-width: 480px) {
+  .section-partners {
+    .partners-title {
+      font-weight: 500;
+      width: 65%;
+      padding-bottom: 20px ;
+    }
+    .partner-link {
+      img {
+        padding: 10px;
+      }
+    }
+    // .slick-slide img {
+    //   padding: 10px;
+    // }
+  }
+}

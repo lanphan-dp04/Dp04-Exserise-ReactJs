@@ -1,0 +1,54 @@
+.incubation {
+    background-color: #c6c1c122;
+}
+
+.introduc {
+padding-top: 30px
+}
+
+.introduc p {
+    color: #636363;
+}
+
+.divison {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 20px;
+    padding: 55px 0;
+}
+
+.divison-container {
+    display: flex;
+    gap: 20px;
+}
+
+.boxicon {
+    min-width: 80px;
+}
+
+.boxcontent p {
+    color: #636363;
+}
+
+@media screen and (max-width: 1200px) {
+    .divison {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .divison {
+        display: block;
+    }
+
+    .divison-container {
+        padding-bottom: 30px;
+    }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+  
+}

@@ -1,0 +1,54 @@
+.talkpage {
+    background-color: #c6c1c122;
+    padding-bottom: 40px;
+}
+
+.wrapper-form {
+    margin-bottom: 30px;
+    background-color: #c6c1c122;
+}
+.talkpage-boxtitle {
+    h1 {
+        padding-bottom: 30px;
+    }
+}
+label.form-label {
+    font-weight: 600;
+}
+.talkpage-boxtitle a {
+    color: rgb(83, 152, 209);
+}
+.talkpage-boxform {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 66% 33%;
+    gap: 30px;
+    background-color: #fff;
+}
+
+.talkpage-boxform p {
+    padding-bottom: 10px;
+    font-weight: 100px;
+    color: rgb(88, 86, 86);
+}
+.box-formcontact p strong {
+    color: black;
+    font-weight: 600;
+}
+.fa-solid-icon {
+    font-size: 10px;
+    width: 15px;
+    padding-left: 5px;    
+}
+
+.form-button {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #FF6E00;
+    border-color: #FF6E00
+}
+@media screen and (max-width:778px) {
+    .talkpage-boxform {
+        grid-template-columns: 100%;
+    }
+}

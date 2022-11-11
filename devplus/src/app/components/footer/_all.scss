@@ -1,0 +1,476 @@
+.footer a {
+    font-weight: 300;
+}
+li a {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.footer-top {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+
+    &-menu {
+        flex: 1.5 1 0;
+
+        &-title {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        &-listbox {
+            display: flex;
+            gap: 20px;
+            // justify-content: space-between;
+
+            .footer-top-menu-box {
+                flex-basis: 50%;
+            }
+            .footer-top-intro-box {
+                flex-basis: 50%;
+                padding-left: 0px;
+            }
+
+            .footer-top-menu-boxlist {
+                padding-left: 5px;
+            }
+
+            .footer-top-menu-list {
+                padding-left: 5px;
+            }
+
+            .footer-top-menu-list::before {
+                font-family: FontAwesome;
+                font-size: 12px;
+                line-height: 14px;
+                content: '\f0da';
+            }
+
+            .whatwedo-menu-item {
+                padding-left: 3px;
+            } 
+
+            .whatwedo-menu-item::before{
+                padding-right: 5px;
+                font-family: FontAwesome;
+                font-size: 12px;
+                line-height: 14px;
+                content: '\f0da';
+            }
+        }
+    }
+
+    &-contact{
+        flex: 1 1 0;
+    
+
+        &-title {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        .fa {
+            margin-right: 5
+            px;
+        }
+    }
+
+    &-fanpage{
+        flex: 1 1 0;
+      
+
+        &-boxlogo{
+            // position: absolute;
+            padding: 10px 30px;
+            display: flex;
+
+            .fanpage-follower{
+                padding-left: 10px;
+            }
+        }
+
+        &-boxitem{
+            
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+
+            .item{
+                
+                margin-top: 25px;
+                background-color: white;
+                color: black;
+                background-clip: padding-box;
+                border: 1px solid rgba(0, 0, 0, .12);
+            }
+            .item a{
+                margin-bottom: 0;
+                padding: 5px 15px;
+                background-clip: padding-box;
+                border: 1px solid rgba(0, 0, 0, .12);
+            }
+
+            // .fanpage-follow{
+            //     bottom: 10px;
+            //     position: absolute;
+            // }
+            // .fanpage-contactus{
+            //     bottom: 10px;
+            //     position: absolute;
+            //     right: 5px;
+            // }
+        }
+    }
+}
+
+.footer{
+    background-color: #181818;
+    padding: 100px 0 70px;
+  
+}  
+ .footer-bottom{
+    border-top: 1px solid #00243f;
+    background-color: black;
+    padding: 30px 0 25px;
+    font-size: 14px;
+    .content{
+        color: white;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .footer{
+        background-color: #181818;
+        padding: 45px 0 35px;
+        .container{
+            .footer-top{
+                width: 100%;
+                color: white;
+                display: flex;
+                gap: 20px;
+                box-sizing: border-box;
+                
+    
+                &-menu{
+                    flex: 1 1 0;
+                    &-title{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }                 
+    
+                }
+    
+                &-contact{
+                    flex: 1 1 0;
+    
+                }
+    
+                &-fanpage{
+                    flex: 1 1 0;
+    
+                    &-boxlogo{
+                        padding: 10px 30px;
+                        display: flex;
+    
+                        .fanpage-follower{
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    &-boxitem{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 30px;
+    
+                        .item{
+                            margin-top: 25px;
+                            background-color: white;
+                            color: black;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+                        .item a{
+                            margin-bottom: 0;
+                            padding: 5px 15px;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+    
+                        .fanpage-follow{
+    
+                        }
+                    }
+                }
+            }
+         
+        }
+    } 
+}
+
+@media only screen and (max-width: 992px) {
+    .footer{
+        background-color: #181818;
+        padding: 45px 0 35px;
+        .container{
+            .footer-top{
+                width: 100%;
+                color: white;
+                display: block;
+                
+    
+                &-menu{
+                    flex: 1 1 60%;
+    
+                    &-title{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+    
+                    &-listbox{
+                        display: flex;
+    
+    
+                        .footer-top-intro-box{
+                            padding-left: 0px;
+                        }
+                        .footer-top-menu-list::before{
+                            content: "<i className="fas fa-caret-right"></i>";
+                        }
+                    }
+    
+                  
+    
+                }
+    
+                &-contact{
+                    flex: 1 1 40%;
+    
+                }
+    
+                &-fanpage{
+                    flex-basis: none;
+            
+    
+                    &-boxlogo{
+                        padding: 10px 30px;
+                        display: flex;
+    
+                        .fanpage-follower{
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    &-boxitem{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 30px;
+    
+                        .item{
+                            margin-top: 25px;
+                            background-color: white;
+                            color: black;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+                        .item a{
+                            margin-bottom: 0;
+                            padding: 5px 15px;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+    
+                        .fanpage-follow{
+    
+                        }
+                    }
+                }
+            }
+         
+        }
+    } 
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        background-color: #181818;
+        padding: 45px 0 35px;
+        .container{
+            .footer-top{
+                width: 100%;
+                color: white;
+                display: block;
+                
+    
+                &-menu{
+                    flex: 1 1 100%;
+    
+                    &-title{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+    
+                    &-listbox{
+                        display: flex;
+    
+    
+                        .footer-top-intro-box{
+                            padding-left: 60px;
+                        }
+                        .footer-top-menu-list::before{
+                            content: "<i className="fas fa-caret-right"></i>";
+                        }
+                    }
+    
+                  
+    
+                }
+    
+                &-contact{
+                    flex: 1  1 100%;
+    
+                }
+    
+                &-fanpage{
+                    flex: 1 1 100%;
+                   
+    
+                    &-boxlogo{
+                        padding: 10px 30px;
+                        display: flex;
+    
+                        .fanpage-follower{
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    &-boxitem{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 30px;
+    
+                        .item{
+                            margin-top: 25px;
+                            background-color: white;
+                            color: black;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+                        .item a{
+                            margin-bottom: 0;
+                            padding: 5px 15px;
+                            background-clip: padding-box;
+                            border: 1px solid rgba(0, 0, 0, .12);
+                        }
+    
+                        .fanpage-follow{
+    
+                        }
+                    }
+                }
+            }
+         
+        }
+    }  
+     .footer-bottom{
+        border-top: 1px solid #00243f;
+        background-color: black;
+        padding: 30px 0 25px;
+        font-size: 14px;
+        .content{
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer{
+        padding: 45px 0 35px; 
+        li{
+            font-size: 14;
+            font-weight: 300;
+        }
+        .container{
+            .footer-top{
+                width: 100%;
+                display: block;
+                
+    
+                &-menu{
+                    flex-basis: 33%;
+    
+                    &-title{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+    
+                    &-listbox{
+                        display: flex;
+    
+    
+                        .footer-top-intro-box{
+                            padding-left: 0px;
+                        }
+                       
+                    }
+
+                }
+    
+                &-contact{
+                    flex-basis: 33%;
+                    &-title {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+    
+                &-fanpage{
+                    flex-basis: 30%;
+                    
+    
+                    &-boxlogo{
+                        padding: 10px 30px;
+                        display: flex;
+    
+                        .fanpage-follower{
+                            padding-left: 10px;
+                        }
+                    }
+    
+                    &-boxitem{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 30px;
+    
+                        .item{
+                            margin-bottom: 5px;
+                            margin-top: 25px;
+                          
+                        }
+                        .item a{
+                            margin-bottom: 0;
+                            padding: 5px 15px;
+                        
+                        }
+                    }
+                }
+            }
+         
+        }
+    }  
+     .footer-bottom{
+        border-top: 1px solid #00243f;
+        background-color: black;
+        padding: 30px 0 25px;
+        font-size: 14px;
+        .content{
+            color: white;
+        }
+    }
+}
+
+
+
+

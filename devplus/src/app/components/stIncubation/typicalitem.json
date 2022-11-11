@@ -1,0 +1,27 @@
+{
+    "itemTypical": [
+        {
+            "avatar": "https://stunited.vn/wp-content/uploads/2019/09/iot-e1567668899699.jpg",
+            "name": "IoT",
+            "Typical": "#coworking space",
+            "info": "Taking advantage of the co-founder team with experience in the software development, IoT Space aims to target customers who are developers, SMEs or tech start-up."
+        },
+        {
+            "avatar": "https://stunited.vn/wp-content/uploads/2019/09/nomadspace.jpg",
+            "name": "Nomad Space",
+            "Typical": "#coworking space",
+            "info": "A casual, comfortable, and convenient place to work with the benefit of cafe service and a collaborative community. Nomad space is intend to digital nomad community for working, meetup, business exchange"
+        },  {
+            "avatar": "https://stunited.vn/wp-content/uploads/2019/09/ciaoflora-1.jpg",
+            "name": "Ciaoflora",
+            "Typical": "#ecommerce",
+            "info": "As a member of Interflora worldwide (ID 292), Ciaoflora Việt Nam is leading online flower service of Vietnam - which can not only offer express flower delivery (within 2-3 hours of ordering) and same day delivery but worldwide flower delivery too."
+        },  {
+            "avatar": "https://stunited.vn/wp-content/uploads/2019/09/cafedat-1024x1024-1.jpg",
+            "name": "Cafe Dat - ダトコーヒー",
+            "Typical": "#coffee product",
+            "info": "Cafe Dat is aiming not only bring the best coffee experience to consumers, but also to produce the highest quality coffee."
+        }
+    ]
+}
+
