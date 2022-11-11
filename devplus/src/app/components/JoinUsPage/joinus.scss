@@ -1,0 +1,136 @@
+.join-us-title h2 {
+    margin-bottom: -70px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+     
+    .vc_column-inner {
+        padding: 35px 0 15px 15px;
+        box-sizing: border-box;
+
+        .wpb_wrapper {
+            .houzez-module {
+                padding: 55px 0;
+            }
+
+            .module-title{
+                padding: 55px 0 0 0!important;
+
+                h2 {
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0 0 10px 0;
+                    font-weight: 500;
+                    text-transform: inherit;
+                    text-align: inherit;
+                    color: #fff;
+                }
+                
+                .sub-heading {
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 300;
+                    text-transform: inherit;
+                    text-align: inherit;
+                    margin: 0 0 20px 0;
+                }
+
+                h3 {
+                    color: #fff;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+            }
+            .module-title+.houzez-module {
+                padding: 40px 0 55px;
+
+                .row-no-margin {
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+                    .module-item {
+                        display: inline-flex;
+                        transition: box-shadow 0.5s ease;
+                        width: 25%;
+                        padding-right: 0;
+                        padding-left: 0;
+                        position: relative;
+                        min-height: 1px;
+                        &:hover {
+                            top: -10px;
+                            box-shadow: 0 5px 50px rgb(176, 173, 173);;
+                            z-index: 111;
+                        }
+
+                        .service-block {
+                            position: relative;
+                            width: 100%;
+                            z-index: 2;
+                            padding: 0 30px 30px;
+                            text-align: -webkit-center;
+                            background-color: #fff;
+                            transition: .2s;
+                            box-shadow: 1px 0px 5px #888888;
+                            .block-icon {
+                                font-size: 60px;
+                                min-width: 80px;
+                                padding: 80px 0 70px;
+
+                                img {
+                                    width: 40%;
+                                }
+                            }
+                            .block-content {
+
+                                h3 {
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                    font-weight: 500;
+                                    text-transform: inherit;
+                                    text-align: inherit;
+                                    margin: 0 0 8px 0;
+                                }
+
+                                p{
+                                    font-size: 17px;
+                                    line-height: 22px;
+                                    font-weight: 300;
+                                    margin: 0 0 10px 0;
+                                    color: #636363;
+                                }
+
+                                .find {
+                                    font-size: 19px;
+                                    line-height: 16px;
+                                    font-weight: 400;
+                                    margin: 0;
+                                    color: #00AEEF;
+                                    -webkit-transition: .3s;
+                                    transition: .3s;
+                                    text-decoration: none;
+
+                                    &:hover {
+                                        color: #99e0fa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .module-item {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .module-item {
+        flex-basis: 100%;
+    }
+}

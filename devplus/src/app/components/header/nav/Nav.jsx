@@ -43,7 +43,11 @@ const Nav = () => {
           </Link>
         </li>
         <li className="nav-item">
+<<<<<<< HEAD
+          <a href="/join-us" className="nav-link">
+=======
           <Link className="nav-link" to={`/join-us`}>
+>>>>>>> b58fea70ddbfc9ba5b06567cfc9182f261543e6a
             JOIN US
           </Link>
         </li>
